@@ -7,9 +7,8 @@ h2 h3 h4 p {
   font-family: "Dosis", sans-serif;
 }
 
-.nav-link {
-  color: #E6E4DE;
-  transition: color 0.3s;
+.navbar-nav{
+  color: white;
 }
 
 .nav-link:hover {
@@ -18,6 +17,10 @@ h2 h3 h4 p {
 
 .navbar,btn,h1,h2{
  font-family:'Poppins', sans-serif;
+}
+.navbar{
+  background-color: rgba(0, 0, 0, 0.365);
+  
 }
 
 .nav-transparent {
