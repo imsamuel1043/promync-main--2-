@@ -7,7 +7,7 @@ h2 h3 h4 p {
   font-family: "Dosis", sans-serif;
 }
 
-.navbar-nav{
+.navbar-nav {
   color: white;
 }
 
@@ -15,17 +15,21 @@ h2 h3 h4 p {
   color: #DA7532;
 }
 
-.navbar,btn,h1,h2{
- font-family:'Poppins', sans-serif;
+.navbar,
+btn,
+h1,
+h2 {
+  font-family: 'Poppins', sans-serif;
 }
-.navbar{
-  background-color: rgba(0, 0, 0, 0.365);
-  
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.689);
+
 }
 
 .nav-transparent {
-    background-color: transparent !important;
-    box-shadow: none;
+  background-color: transparent !important;
+  box-shadow: none;
 }
 
 .banner-section {
@@ -43,27 +47,27 @@ h2 h3 h4 p {
   z-index: 1;
 }
 
-.overlay{
-  background-color:rgba(0, 0, 0, 0.4);
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-.carousel-item{
+.carousel-item {
   color: #E6E4DE;
 }
 
-.btn-cta{
-  background-color:  #DA7532;
-  color:  #1B1F1D;
+.btn-cta {
+  background-color: #DA7532;
+  color: #1B1F1D;
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
-  font-family:'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  transition: background-colour 0.3s,color 0.3s;
+  transition: background-colour 0.3s, color 0.3s;
 }
 
-.btn-cta:hover{
-  background-color:  #6A8D92;
+.btn-cta:hover {
+  background-color: #6A8D92;
   color: #ffffff;
 }
 
@@ -81,7 +85,7 @@ h2 h3 h4 p {
 }
 
 .value-box:hover {
-  background-color:#6A8D92;
+  background-color: #6A8D92;
   color: #ffffff;
 }
 
@@ -127,7 +131,7 @@ h2 h3 h4 p {
   height: auto;
 }
 
-.section5{
+.section5 {
   background-color: #E6E4DE;
 }
 
@@ -175,22 +179,34 @@ h1 {
   background-color: rgba(0, 0, 0, 0.121);
 }
 
-.btn-cd{
-  background-color:  #DA7532;
-  color:  #1B1F1D;
+.btn-cd {
+  background-color: #DA7532;
+  color: #1B1F1D;
   padding: 10px 18px;
   border: none;
   border-radius: 25px;
-  font-family:'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  transition: background-colour 0.3s,color 0.3s;
+  transition: background-colour 0.3s, color 0.3s;
 }
 
-.btn-cd:hover{
-  background-color:  #6A8D92;
+.btn-cd:hover {
+  background-color: #6A8D92;
   color: #ffffff;
 }
 
-.contact-btn{
+.contact-btn {
   border-radius: 2px;
+}
+
+.equal-card {
+  width: 100%;
+  max-width: 320px;
+  height: 100%;
+  min-height: 480px;
+}
+
+.equal-img {
+  height: 180px;
+  object-fit: cover;
 }
